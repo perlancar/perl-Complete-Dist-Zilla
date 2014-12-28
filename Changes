@@ -1,5 +1,10 @@
 Revision history for Complete-Dist-Zilla
 
+0.02    2014-12-28 (PERLANCAR)
+
+	- Oops, forgot to add list_dzil_bundle & list_dzil_role.
+
+
 0.01     2014-12-28 (PERLANCAR)
 
          - First release.
