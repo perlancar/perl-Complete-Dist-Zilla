@@ -8,7 +8,7 @@ use strict;
 use warnings;
 #use Log::Any '$log';
 
-use Complete;
+use Complete::Setting;
 
 our %SPEC;
 require Exporter;
@@ -51,9 +51,9 @@ sub complete_dzil_plugin {
     my %args = @_;
 
     my $word = $args{word} // '';
-    my $ci          = $args{ci} // $Complete::OPT_CI;
-    my $map_case    = $args{map_case} // $Complete::OPT_MAP_CASE;
-    my $exp_im_path = $args{exp_im_path} // $Complete::OPT_EXP_IM_PATH;
+    my $ci          = $args{ci} // $Complete::Setting::OPT_CI;
+    my $map_case    = $args{map_case} // $Complete::Setting::OPT_MAP_CASE;
+    my $exp_im_path = $args{exp_im_path} // $Complete::Setting::OPT_EXP_IM_PATH;
 
     Complete::Module::complete_module(
         word => $word,
@@ -76,9 +76,9 @@ sub complete_dzil_role {
     my %args = @_;
 
     my $word = $args{word} // '';
-    my $ci          = $args{ci} // $Complete::OPT_CI;
-    my $map_case    = $args{map_case} // $Complete::OPT_MAP_CASE;
-    my $exp_im_path = $args{exp_im_path} // $Complete::OPT_EXP_IM_PATH;
+    my $ci          = $args{ci} // $Complete::Setting::OPT_CI;
+    my $map_case    = $args{map_case} // $Complete::Setting::OPT_MAP_CASE;
+    my $exp_im_path = $args{exp_im_path} // $Complete::Setting::OPT_EXP_IM_PATH;
 
     Complete::Module::complete_module(
         word => $word,
@@ -101,9 +101,9 @@ sub complete_dzil_bundle {
     my %args = @_;
 
     my $word = $args{word} // '';
-    my $ci          = $args{ci} // $Complete::OPT_CI;
-    my $map_case    = $args{map_case} // $Complete::OPT_MAP_CASE;
-    my $exp_im_path = $args{exp_im_path} // $Complete::OPT_EXP_IM_PATH;
+    my $ci          = $args{ci} // $Complete::Setting::OPT_CI;
+    my $map_case    = $args{map_case} // $Complete::Setting::OPT_MAP_CASE;
+    my $exp_im_path = $args{exp_im_path} // $Complete::Setting::OPT_EXP_IM_PATH;
 
     Complete::Module::complete_module(
         word => $word,
