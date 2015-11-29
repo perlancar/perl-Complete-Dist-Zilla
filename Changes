@@ -1,5 +1,13 @@
 Revision history for Complete-Dist-Zilla
 
+0.06    2015-11-29 (PERLANCAR)
+
+        - Update to Complete::Common 0.18.
+
+	- [Removed] Remove options 'ci', 'map_case', 'exp_im_path' (one can
+	  alternatively set global behavior, see Complete::Common).
+
+
 0.05    2015-09-09 (PERLANCAR)
 
 	- No functional changes.
