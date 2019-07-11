@@ -1,11 +1,11 @@
-0.07    2015-11-30 (PERLANCAR)
+0.07    2015-11-30  Released-By: PERLANCAR
 
 	- No functional changes.
 
 	- Bump prereq version Complete::Common to 0.21 [CT].
 
 
-0.06    2015-11-29 (PERLANCAR)
+0.06    2015-11-29  Released-By: PERLANCAR
 
         - Update to Complete::Common 0.18.
 
@@ -13,7 +13,7 @@
 	  alternatively set global behavior, see Complete::Common).
 
 
-0.05    2015-09-09 (PERLANCAR)
+0.05    2015-09-09  Released-By: PERLANCAR
 
 	- No functional changes.
 
@@ -22,7 +22,7 @@
 	  requirement.
 
 
-0.04    2015-09-03 (PERLANCAR)
+0.04    2015-09-03  Released-By: PERLANCAR
 
 	- No functional changes.
 
@@ -31,18 +31,18 @@
 	  requirement.
 
 
-0.03    2015-01-09 (PERLANCAR)
+0.03    2015-01-09  Released-By: PERLANCAR
 
 	- No functional changes.
 
 	- Reupload to PAUSE to see if this time it gets indexed.
 
 
-0.02    2014-12-28 (PERLANCAR)
+0.02    2014-12-28  Released-By: PERLANCAR
 
 	- Oops, forgot to add list_dzil_bundle & list_dzil_role.
 
 
-0.01     2014-12-28 (PERLANCAR)
+0.01     2014-12-28  Released-By: PERLANCAR
 
          - First release.
