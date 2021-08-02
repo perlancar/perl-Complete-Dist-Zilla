@@ -2,3 +2,4 @@ Complete-Dist-Zilla-*
 .build
 *~
 nytprof*
+.DS_Store
